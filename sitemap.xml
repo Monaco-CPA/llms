@@ -19,38 +19,3 @@
     <priority>0.9</priority>
   </url>
 </urlset>
-```
-
-### Step 2: Add files to GitHub
-
-1. Go to: `https://github.com/monaco-cpa/llms`
-2. Click **Add file** → **Create new file**
-3. Name it `robots.txt`, paste the content above
-4. Commit
-5. Repeat for `sitemap.xml`
-
-### Step 3: Submit to Google Search Console as separate property
-
-1. Go to [Google Search Console](https://search.google.com/search-console)
-2. Click the property dropdown (top left) → **Add property**
-3. Choose **URL prefix** and enter: `https://monaco-cpa.github.io/llms/`
-4. Verify ownership via the HTML file method:
-   - Google will give you a file like `google1234567890abcdef.html`
-   - Add this file to your GitHub repo root
-   - Commit and wait 1-2 minutes for GitHub Pages to deploy
-   - Click Verify in Search Console
-5. Once verified, go to **Sitemaps** in the left menu
-6. Enter `sitemap.xml` and click Submit
-
----
-
-## Part 2: Wix Workaround for Main Site
-
-Since Wix won't let you edit robots.txt directly, here are your options:
-
-### Option A: Add llms.txt reference via Wix SEO settings (Limited)
-
-1. Go to Wix Dashboard → **Settings** → **SEO Tools** → **Robots.txt Editor**
-2. Wix may allow you to add lines at the bottom. Try adding:
-```
-Sitemap: https://www.monacocpa.cpa/sitemap.xml
