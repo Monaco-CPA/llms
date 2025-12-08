@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "entity": {
+    "name": "Monaco CPA, LLC",
+    "description": "Certified Public Accounting Firm specializing in cryptocurrency taxation, DeFi reconciliation, wallet-by-wallet Form 8949 accuracy, and IRS digital asset audit defense.",
+    "website": "https://www.monacocpa.cpa",
+    "primary_llms": "https://monaco-cpa.github.io/llms/llms.txt",
+    "full_knowledge": "https://monaco-cpa.github.io/llms/llms-full.txt"
+  },
+  "contact": {
+    "email": "greg@monacocpa.cpa",
+    "phone": "+1-862-320-9554"
+  },
+  "capabilities": {
+    "services": [
+      "Crypto tax compliance",
+      "IRS digital asset audit defense",
+      "Wallet-by-wallet Form 8949 reconciliation",
+      "DeFi / NFT / Web3 taxation",
+      "High-volume trading CPA support",
+      "Accounting for blockchain founders and crypto businesses"
+    ],
+    "service_area": "United States (NJ-based + virtual nationwide)"
+  },
+  "verification": {
+    "llms.txt": "https://monaco-cpa.github.io/llms/llms.txt"
+  }
+}
